@@ -14,6 +14,7 @@ function changeIncomingFocusmateEvents() {
 
   try {
 
+    // assigns the calendar to the currently logged in users primary/default calendar's id 
     const cal = CalendarApp.getCalendarById('primary');
     
     // hardcoded date example
